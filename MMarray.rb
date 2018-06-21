@@ -7,6 +7,6 @@ i = 0
     puts "#{i + 1}"
 end
 
-if i % 3 = 0
+if i % 3 == 0
   numbers[i] == "mined"
 end
