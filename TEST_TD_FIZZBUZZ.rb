@@ -12,10 +12,6 @@ class TestMinedMinds < Minitest::Test
     end
 
     def test_assert_array_numbers
-        assert_equal(numbers[20], 21)
-    end
-
-    def test_assert_array_numbers
         assert_equal(numbers[40], 41)
     end
 
