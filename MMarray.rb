@@ -6,3 +6,7 @@ i = 0
     numbers.push(i)
     puts "#{i + 1}"
 end
+
+if i % 3 = 0
+  numbers[i] == "mined"
+end

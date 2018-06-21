@@ -19,4 +19,9 @@ class TestMinedMinds < Minitest::Test
         assert_equal(numbers[40], 41)
     end
 
+    def test_assert_position_two_equals_mined
+        assert_equal(numbers[2], "mined")
+
+    end
+
 end
