@@ -1,12 +1,8 @@
-numbers = []
 
-i = 0
 
-100.times do |i|
-    numbers.push(i)
-    puts "#{i + 1}"
-end
-
-if i % 3 == 0
-  numbers[i] == "mined"
+def numbers()
+  mmarr = [*1..100]
+  mmarr[2] = "mined"
+  mmarr[4] = "minds"
+  mmarr
 end
