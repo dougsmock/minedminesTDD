@@ -1,8 +1,5 @@
 numbers = []
 
-i = 0
-
-100.times do #loop pushing numbers into numbers array
+100.times do |i| #loop pushing numbers into numbers array
     numbers.push[i]
-    i += 1
 end
