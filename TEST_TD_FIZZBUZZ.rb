@@ -7,4 +7,8 @@ class TestMinedMinds < Minitest::Test
         assert_equal(1, 1)
     end
 
+    def test_assert_array_numbers
+        assert_equal(numbers[0], 1)
+    end
+
 end
