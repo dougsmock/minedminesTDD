@@ -23,6 +23,14 @@ class TestMinedMinds < Minitest::Test
         assert_equal(numbers[4], "minds")
     end
 
+    def test_assert_position_five_equals_mined
+        assert_equal(numbers[5], "mined")
+    end
+
+    def test_assert_position_nine_equals_minds
+        assert_equal(numbers[9], "minds")
+    end
+
     def test_assert_postion_fourteen_equals_mined_minds
         assert_equal(numbers[14], "Mined Minds")
     end
