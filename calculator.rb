@@ -1,12 +1,14 @@
-def calculate()
+a = 6
+b = 3
 
-  1
+def calculate(a, b)
+  if "add"
+    addition(a, b)
+    return a + b
+  end
+
 
 end
-
-
-
-
 
 
 

@@ -8,7 +8,8 @@ class Calculator < Minitest::Test
   end
 
   def test assert_add_equals_add
-    assert_equal("add", "addition")
+    assert_equal("add", addition(a,b))
   end
+
 
 end
