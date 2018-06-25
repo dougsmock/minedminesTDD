@@ -1,10 +1,11 @@
-a = 6
-b = 3
-
 def calculate(a, b)
   if "add"
     addition(a, b)
     return a + b
+  elsif "sub"
+    subtraction(a, b)
+    return a - b
+
   end
 
 
