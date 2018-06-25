@@ -1,5 +1,7 @@
 def fizz()
   if "add" == calculate.string
+    true
+  end
 
 
 end
@@ -13,7 +15,7 @@ end
 
 
 #if "add" "sub" "mul" "div" is a string
-equals "add"
+#equals "add"
 #if "sub" equals "subtract"
 #if "mul" equals "multiply"
 #if "div" equals "divide"
