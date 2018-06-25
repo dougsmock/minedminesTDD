@@ -1,4 +1,4 @@
-def match_check(ticket1, ticket2)
+def match_check(ticket1, ticket2) #cigar
   ticket1 = ticket1.split('')
   ticket2 = ticket2.split('')
   matchcounter = 0
@@ -10,7 +10,7 @@ def match_check(ticket1, ticket2)
   matchcounter
 end
 
-def check_list(ticket_list, ticket_winner)
+def check_list(ticket_list, ticket_winner) #cigararr
   number_winners = 0
   ticket_list.each do |num|
     if match_check(num, ticket_winner) == 4
@@ -19,3 +19,22 @@ def check_list(ticket_list, ticket_winner)
   end
   number_winners
 end
+
+def moretickets(other, ticket_winner)
+  ret = []
+  other.each do |ticket|
+    ret << match_check(ticket, winningtick)
+  end
+  ret
+end
+
+
+
+
+
+
+# making new function
+# list of people's tickets, (my tickets?)
+# list of winning ticket
+#
+# order from most to least winners.
