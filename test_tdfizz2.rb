@@ -11,4 +11,16 @@ class Calculator < Minitest::Test
     assert_equal("add", fizz().string)
   end
 
+  def assert_that_sub_is_a_string
+      assert_equal("sub", fizz().string)
+  end
+
+  def assert_that_mul_is_a_string
+      assert_equal("mul", fizz().string)
+  end
+
+  def assert_that_sub_is_a_string
+      assert_equal("div", fizz().string)
+  end
+
 end

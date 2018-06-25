@@ -1,5 +1,8 @@
 def fizz()
-  if "add" == calculate.string
+  if ("add" == calculate.string) &&
+    ("sub" == calculate.string) &&
+    ("mul" == calculate.string) &&
+    ("div" == calculate.string)
     true
   end
 
