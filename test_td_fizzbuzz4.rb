@@ -27,5 +27,9 @@ class CloseButNoCigar < Minitest::Test
     assert_equal(1, check_list(['1234', '2345'], '1234'))
   end
 
+  def test_if_moretickets_equals_winningticket
+    assert_equal([4, 3], moretickets(["1233", "1234"], "1234"))
+  end
+
 
 end

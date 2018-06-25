@@ -1,14 +1,12 @@
-def calculate(a, b)
+def calculate()
   if "add"
     addition(a, b)
-    return a + b
-  elsif "sub"
-    subtraction(a, b)
-    return a - b
-
   end
 
+end
 
+def addition(a, b)
+  a + b
 end
 
 
@@ -27,3 +25,11 @@ end
 #if div answer is a float
 #if second "div" number does/does not equal 0 (try again)
 #allow user to do another problem
+
+
+
+
+take in multip numbers of my tickets
+compare it to 2 3 4 5 winning tickets
+return each ticket tell me
+orer that list by most correct
