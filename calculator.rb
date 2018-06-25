@@ -1,11 +1,6 @@
-def fizz()
-  if ("add" == calculate.string) &&
-    ("sub" == calculate.string) &&
-    ("mul" == calculate.string) &&
-    ("div" == calculate.string)
-    true
-  end
+def calculate()
 
+  1
 
 end
 
@@ -16,8 +11,7 @@ end
 
 
 
-
-#if "add" "sub" "mul" "div" is a string
+#if "add" "sub" "mul" "div" becomes an integer
 #equals "add"
 #if "sub" equals "subtract"
 #if "mul" equals "multiply"
