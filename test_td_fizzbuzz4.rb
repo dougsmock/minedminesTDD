@@ -43,9 +43,9 @@ class TestCigar < Minitest::Test
       assert_equal(String, "1234".class)
     end
 
-    # def test_assert_that_strings_have_4_digits
-    #  assert_equal
-    # end
+    def test_assert_that_strings_have_4_digits
+     assert_equal("1234", digits[])
+    end
 
 end
 
