@@ -29,7 +29,7 @@ class CloseButNoCigar < Minitest::Test
     assert_equal([0,2,2], cigararr(["1234", "1222", "1245"], "1234"))
   end
 
-  def test_if_winners_equal_2
-    assert_equal([1, [1,2]], winarr(["1234", "1222", "1224"], ["1234"])) 
+  def test_if_offby_sort_in_array_with_winners
+    assert_equal([1,2 [1]], winarr(["1234", "1224", "1224", "1233"], ["1224", "1234"]))
   end
 end
