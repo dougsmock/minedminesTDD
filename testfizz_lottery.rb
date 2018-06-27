@@ -11,4 +11,12 @@ class Lottery < Minitest::Test
     assert_equal(String, ("").class)
   end
 
+  def test_first_array_number
+     assert_equal(guesses[0], 1)
+  end
+
+     # def test_assert_array_numbers
+     #     assert_equal(numbers[40], 41)
+     # end
+
 end

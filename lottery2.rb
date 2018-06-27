@@ -1,40 +1,60 @@
-numbers = []
-
 def string_draw_numbers()
+  numbers = []
     (0..3).each do |drawing|
       drawing = rand(10).to_s
       numbers << drawing
     end
     official_result = numbers[0] + numbers[1] + numbers[2] + numbers[3]
-    puts official_result
     official_result
 end
+
+def array_buy_tickets()
+  winning_tickets = 0
+  (0.999).each do
+    guesses = []
+    (0..3).each do |entrants|
+      entrants = rand(10).to_s
+      public_digits << entrants
+    end
+    guesses = public_digits[0] + public_digits[1] + public_digits[2] + public_digits[3]
+    guesses
+  end
+end
+
+
+
+
+
+
+
+
+#   (0..999).each do
+#     guesses = []
+#     (0..3).each do |tickets|
+#       tickets = rand(10).to_s
+#       guesses.push(tickets)
+#       end
+#   bought_tickets = guesses[0] + guesses[1] + guesses[2] + guesses[3]
+#   puts bought_tickets
+#     if bought_tickets == official_result
+#       # puts "Yippee!!!!!!!!!!!!!!!!!!!!!!"
+#       winning_tickets += 1
+#     end
+#   end
+#   puts "Winning tickets = #{winning_tickets}."
+# end
+
+
+
 
 
 
 # puts "The winning number: #{numbers}"
 
 #
-# #
-# # winning_tickets = 0
-# #
-# # (0..999).each do
-# #   guesses = []
-# #   (0..3).each do |tickets|
-# #     tickets = rand(10).to_s
-# #     guesses.push(tickets)
-# #     end
-# # bought_tickets = guesses[0] + guesses[1] + guesses[2] + guesses[3]
-# # puts bought_tickets
-# #   if bought_tickets == official_result
-# #     # puts "Yippee!!!!!!!!!!!!!!!!!!!!!!"
-# #     winning_tickets += 1
-# #   end
-# #
-# # end
-# #
-# # puts "There were #{winning_tickets} winning tickets."
-# #
+
+
+
 # #
 # #
 # #
