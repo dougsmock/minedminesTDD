@@ -3,12 +3,14 @@ numbers = []
 def draw_numbers()
     (0..3).each do |drawing|
       drawing = rand(10).to_s
-      numbers.push(drawing)
+      numbers << drawing
     end
     official_result = numbers[0] + numbers[1] + numbers[2] + numbers[3]
     puts official_result
     official_result
 end
+
+
 
 # puts "The winning number: #{numbers}"
 
