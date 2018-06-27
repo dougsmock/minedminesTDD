@@ -43,8 +43,8 @@ class TestCigar < Minitest::Test
       assert_equal(String, "1234".class)
     end
 
-    def test_assert_strings_split_properly
-     assert_equal(digits[0], "1")
+    def test_assert_strings_split
+     assert_equal(Array[0], "1")
     end
 
 end
