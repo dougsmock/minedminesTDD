@@ -45,9 +45,6 @@ class TestCigar < Minitest::Test
 
     def test_assert_strings_split_properly
      assert_equal(digits[0], "1")
-     assert_equal(digits[1], "2")
-     assert_equal(digits[2], "3")
-     assert_equal(digits[3], "4")
     end
 
 end
