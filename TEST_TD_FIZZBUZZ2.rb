@@ -8,7 +8,7 @@ class TestFizzBuzzz < Minitest::Test
   end
 
   def test_if_returns_array
-     assert_equalArray(Array,fizzbuzzz().class)
+     assert_equal(Array,fizzbuzzz().class)
   end
 
 
