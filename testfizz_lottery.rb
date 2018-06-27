@@ -8,7 +8,7 @@ class Lottery < Minitest::Test
   # end
 
   def test_if_function_has_string
-    assert_equal(String, draw_numbers.class)
+    assert_equal(String, ("").class)
   end
 
 end

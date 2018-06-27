@@ -1,6 +1,6 @@
 numbers = []
 
-def draw_numbers()
+def string_draw_numbers()
     (0..3).each do |drawing|
       drawing = rand(10).to_s
       numbers << drawing
