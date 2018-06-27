@@ -33,7 +33,7 @@ def winarr(mytickarray, winningtick)
 			off_by << m
 			end
 		end
-		warr.push.sort(winners)
+		warr << winners
 	end
 	warr = warr.sort
 	warr << off_by.sort
