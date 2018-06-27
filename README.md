@@ -1,2 +1,0 @@
-# minedminesTDD
-# closebutnocigar
