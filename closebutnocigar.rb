@@ -29,7 +29,7 @@ def winarr(mytickarray, winningtick)
 		matches.each do |m|
 			if m == 0
 			winners += 1
-		elsif
+			elsif
 			off_by << m
 			end
 		end
