@@ -10,21 +10,21 @@ end
 
 
 
-# def array_buy_tickets()
-#   random_ticket = []
-#   (0.999).each do
-#     digits = []
-#     (0..3).each do |digits|
-#       i = 0
-#       digits[i] = rand(10).to_s
-#       i += 1
-#     end
-#     random_ticket = digits[0] + digits[1] + digits[2] + digits[3]
-#   end
-#   random_ticket
-# end
-#
-# end
+def array_buy_tickets()
+  random_ticket = []
+  (0.999).each do
+    digits = []
+    (0..3).each do |digits|
+      i = 0
+      digits[i] = rand(10).to_s
+      i += 1
+    end
+    guesses = []
+    guesses << digits[0] + digits[1] + digits[2] + digits[3]
+    random_ticket << guesses
+  end
+  random_ticket
+end
 
 
 #introduce guesses array
